@@ -27,7 +27,7 @@
         http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.0.xsd" default-lazy-init="true">
 
 
-        <bean id="xmlfilepublisher" class="org.jumpmind.symmetric.integrate.XmlPublisherDataRouter">
+        <bean id="xmlfilerouter" class="org.jumpmind.symmetric.integrate.XmlPublisherDataRouter">
                 <property name="groupByColumnNames">
                         <list><value>id</value></list>
                 </property>
